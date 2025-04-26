@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #6dd5fa, #2980b9);
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+main .converter {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main .converter label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+main .converter input,
+main .converter select,
+main .converter button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+main .converter input {
+    background: #ecf0f1;
+    color: #333;
+}
+
+main .converter select {
+    background: #3498db;
+    color: #fff;
+}
+
+main .converter button {
+    background: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+main .converter button:hover {
+    background: #c0392b;
+}
+
+main .converter #result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 0.9rem;
+}
